@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="/images//logo.ico">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">    
+        <link href="styles.css" rel="stylesheet">
+        <title>Developer Goalz</title>
+        <script>
+          function greet()
+          {
+            let name = document.querySelector('#fname').value;
+            if (name === '')
+            {
+              name = 'World';
+            }
+            alert("Hello " + name + ", thank you for visiting my webpage!");
+          }
+        </script>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+
+              <div class="logo">
+                <a href = "index.html">
+                    <img class = "homepageLogo" src = "/images/logo.png" alt = "Link to homepage.">
+                </a>
+              </div>
+
+              <div class="col">
+
+                <div class = "link">
+                    <a href = "physician.html">
+                        <img class = "topRightLogo" src = "/images/whitecoat.jpg" alt = "Link to physician goals.">
+                    </a>
+                </div>
+        
+                <div class = "link">
+                    <a href = "developer.html"">
+                        <img class = "topRightLogo" src = "/images/code.png" alt = "Link to developer goals.">
+                    </a>
+                </div>
+
+                <div class = "link">
+                    <a href = "investing.html"">
+                        <img class = "topRightLogo" src = "/images/investing.jpg" alt = "Link to investor goals.">
+                    </a>
+                </div>
+
+              </div>
+              
+            </div>
+
+        <h1>
+            Welcome to the Developer Goalz page! &#128242
+        </h1>
+
+        <div class="container">
+
+            <div class="row">
+
+              <div class="col-sm">
+                <p>Web Programming</p>
+                <img class="homepagePic" src="/images/webProgram.jpg" alt="Clip art of web programming.">
+                <p>
+                  I aspire to learn full stack web programming skills to eventually do freelance work as a side hustle.
+                  Currently feel more comfortable with backend work, but plan to continue learning everything I can.
+                </p>
+              </div>
+
+              <div class="col-sm">
+                <p>Mobile App Development</p>
+                <img class="homepagePic" src="/images/mobileDev.jpg" alt="Clip art of mobile app development.">
+                <p>
+                  I plan on learning how to develop mobile applications for iOS and Android phones. Ultimately, everything
+                  is being used on mobile platforms and this skill is essential.
+                </p>
+              </div>
+
+              <div class="col-sm">
+                <p>Artificial Intelligence</p>
+                <img class="homepagePic" src="/images/ai.jpg" alt="Clip art of artifical intelligence.">
+                <P>
+                  This is one of my biggest interests apart from my desire to become a physician. I am shooting
+                  towards finding a way to combine data science and artificial intelligence skills with my career as 
+                  doctor.
+                </P>
+              </div>
+            </div>
+
+            <form onsubmit="greet(); return false;">
+              <label for="fname">Name:</label><br>
+              <input type="text" id="fname" name="fname"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+
+          </div>
+
+    </body>
+</html>

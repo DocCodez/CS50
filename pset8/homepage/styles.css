@@ -1,0 +1,42 @@
+/* Styling sheet for the webpages */
+body {
+    background-color: aqua;
+    text-align: center;
+    color: blue;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+.logo {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.homepageLogo {
+    height: 240px;
+    width: 240px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.topRightLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.link {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.homepagePic {
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
